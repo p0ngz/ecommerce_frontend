@@ -10,10 +10,10 @@ export default defineConfig({
     },
   },
   server: {
-    port: 5173, // Frontend port
+    port: 5174, // Frontend port
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        target: 'http://localhost:3001',
         changeOrigin: true,
       },
     },
