@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce-frontend",
+  "version": "1.0.0",
+  "description": "E-commerce frontend with Vue 3 + TypeScript + Pinia",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.10",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.1",
+    "@vue/tsconfig": "^0.4.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.6",
+    "vue-tsc": "^1.8.25"
+  }
+}
