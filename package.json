@@ -4,7 +4,7 @@
   "description": "E-commerce frontend with Vue 3 + TypeScript + Pinia",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "type-check": "vue-tsc --noEmit"
   },
